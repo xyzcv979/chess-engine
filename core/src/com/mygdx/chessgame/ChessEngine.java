@@ -16,11 +16,13 @@ import org.w3c.dom.css.Rect;
 import java.awt.*;
 
 public class ChessEngine extends ApplicationAdapter {
+	public static final int WIDTH = 800;
+	public static final int HEIGHT = 400;
 	private SpriteBatch batch;
 	private Texture texture;
 	private Array<Array<Rectangle>> board;
-	private int frameHeight, frameWidth;
-	private int squareLength;
+	private static int frameHeight, frameWidth;
+	private static int squareLength;
 	private OrthographicCamera camera;
 
 	@Override
