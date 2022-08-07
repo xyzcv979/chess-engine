@@ -16,8 +16,8 @@ import org.w3c.dom.css.Rect;
 import java.awt.*;
 
 public class ChessEngine extends ApplicationAdapter {
-	public static final int WIDTH = 800;
-	public static final int HEIGHT = 400;
+	public static final int WIDTH = 600;
+	public static final int HEIGHT = 600;
 	private SpriteBatch batch;
 	private Texture texture;
 	private Array<Array<Rectangle>> board;
